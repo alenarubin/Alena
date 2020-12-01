@@ -1,0 +1,153 @@
+/* 
+	Global classes 
+					*/
+
+
+               
+ .name 
+{
+    text-align: center;
+    font-family: Futura; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 7px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    }
+
+body  {
+ 
+  background-color:mintcream;
+}
+
+                
+.tagline {
+                    
+    text-align: center;
+    font-family: Futura; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 7px; 
+    font-size: medium;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    }
+
+.albums-album-wrapper {
+
+    margin: 10px;
+    text-align: center;
+    }
+   
+.albums-album-art {
+    width: 500px;
+	height: 500px;
+	
+}
+
+.albums-album-name {
+    font-weight: bold;
+    font-family: Futura; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 50; line-height: 6px; 
+
+}
+
+.albums-artist-name {
+	font-size: small;
+    text-align: center;
+    font-family: Futura; font-size: 13px; font-variant: normal; font-weight: 20; line-height: 7px;
+    margin-top: 10px;
+
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.menu {
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-right: 36%; 
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mintcream;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: small;
+    font-style: normal;
+    
+  }
+  
+  li {
+      
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#ffdbf7;
+  }
+  
+  li a.active {
+    color: white;
+    background-color:#ff99e9 ;
+  }
+
+
+
+  .page-image{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 30%;
+      margin-top: 20px;
+  }
+
+  .body-text {
+      margin-left: 75px;
+      margin-right: 75px;
+  }
+
+  .user-quotes {
+    margin-left: 75px;
+    margin-right: 75px;
+    font-style: italic;
+  }
+
+  #alena-image {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 35%;
+    margin-top: 20px;
+  }
+
+  .contact-text {
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    
+}
+
+.resume-image {
+  width: 600px;
+  margin-left: 29%;
+  
+}
+
+.youtube-video {
+
+  margin-left: 29%;
+}
+
+.screenTime {
+  width: 600px;
+  margin-left: 10%;
+}
